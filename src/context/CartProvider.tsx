@@ -7,7 +7,7 @@ export type CartItemType = {
     qty: number
 }
 
-type CartStateType = { cart: CartItemType[] } //корзина
+type CartStateType = { cart: CartItemType[] } 
 
 const initCartState: CartStateType = { cart: [] }
 
